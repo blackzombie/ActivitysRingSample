@@ -1,5 +1,5 @@
 <resources>
     <string name="app_name">ActivityRingsSample</string>
     <string name="start" translatable="false">START</string>
-    <string name="init" translatable="false">init</string>
+    <string name="init" translatable="false">INIT</string>
 </resources>
