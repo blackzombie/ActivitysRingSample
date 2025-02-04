@@ -15,7 +15,7 @@ class MainActivity : AppCompatActivity() {
         binding = DataBindingUtil.setContentView(this, R.layout.activity_main)
 
         binding.btnRingStart.setOnClickListener {
-            binding.ringView.setInputProgress(arrayListOf(120f, 100f, 60f))
+            binding.ringView.setInputProgress(arrayListOf(140f, 100f, 60f))
         }
         binding.btnRingInit.setOnClickListener {
             binding.ringView.setInputProgress(arrayListOf(0f, 0f, 0f))
